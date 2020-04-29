@@ -1,0 +1,7 @@
+These models are fun to play with 
+and demonstrate some 
+key concepts in 
+natural language 
+processing (NLP). 
+However, there aren
+many practical uses 

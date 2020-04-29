@@ -1,0 +1,5 @@
+plb.cpp: В функции «void plb_on_line(int, std::__cxx11::string, int, void*)»:
+plb.cpp:56:32: ошибка: ошибка преобразования «std::__cxx11::string {aka std::__cxx11::basic_string<char>}» в «const char*» для аргумента «1» функции «size_t strlen(const char*)»
+   if(crs > (int)strlen(contents)-1)
+                                ^
+make: *** [Makefile:37: plb.o] Ошибка 1

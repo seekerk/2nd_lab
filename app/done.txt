@@ -1,0 +1,7 @@
+create text
+create cursor
+append_line
+load
+
+check:
+	перепроверить load и попробовать freopen
