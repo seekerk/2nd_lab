@@ -155,7 +155,7 @@ int main()
 				continue;
 			}
 			line2 = stoi(line1);
-			ind2 = stoi(ind1);
+            ind2 = std::stoi(ind1);
             move(txt, line2, ind2);
 			//cout << endl;
             continue;
