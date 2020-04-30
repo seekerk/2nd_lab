@@ -6,10 +6,8 @@ CONFIG -= app_bundle
 CONFIG += thread
 CONFIG -= qt
 
-CONFIG += c++1z
 
-
-QMAKE_CXXFLAGS += -Wall #-Wextra -Werror
+QMAKE_CXXFLAGS += -Wall /std:c++17#-Wextra -Werror
 QMAKE_CFLAGS += -Wall #-Wextra -Werror
 
 # gcov
