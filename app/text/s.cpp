@@ -28,7 +28,6 @@ void s(text1 * txt)
 	string str;
 	string str1 = *iter;
 	
-	int u = 0;
 	int o = str1.size();
 	for(int i = curCrs; i < o; i++){
 		str+=str1[i];
@@ -39,9 +38,9 @@ void s(text1 * txt)
 	str2+='\n';
 
 	*iter = str2;
-	if(txt->ind >= str2.size()-1){
+        if(txt->ind >= (int)str2.size()-1){
 		txt->line++;
-        txt->ind = 0;
+                txt->ind = 0;
 	}
 	iter++;
 	txt->li->emplace(iter, str);	

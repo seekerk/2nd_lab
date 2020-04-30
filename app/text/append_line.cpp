@@ -11,7 +11,7 @@
 /**
  * Выделяет память под один элемент списка
  */
-static node *create_node(const char *contents);
+
 
 
 /**

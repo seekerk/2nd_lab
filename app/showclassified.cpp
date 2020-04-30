@@ -37,13 +37,13 @@ static void showclassified_line(int index, string contents, int cursor, void *da
     /* Функция обработчик всегда получает существующую строку */
 //    assert(contents != NULL);
    // int y = (int)data;
-	int *y1 = static_cast<int*>(data);
+    //int *y1 = static_cast<int*>(data);
     /* Декларируем неиспользуемые параметры */
     UNUSED(index);
     UNUSED(cursor);
     UNUSED(data);
-	int y = *y1;
-	for(int i = 0; i < contents.size()-1; i++){
+    //int y = *y1;
+    for(unsigned int i = 0; i < contents.size()-1; i++){
         if((contents[i] >= 'a' && contents[i] <= 'z') || (contents[i] >= 'A' && contents[i] <= 'Z'))
 			printf("*");
 		else

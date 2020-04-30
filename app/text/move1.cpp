@@ -4,7 +4,7 @@
 
 void move1(text1 * txt, int line, int ind){
 	int cur = 0;
-	if(txt->li->size() < line){
+        if((int)txt->li->size() < line){
         txt->line = txt->li->size()-1;
         auto iter = --txt->li->end();
         txt->ind = (iter)->size();
@@ -16,7 +16,7 @@ void move1(text1 * txt, int line, int ind){
 		cur++;
 	}
 	string s = *iter;
-	if(ind > s.size()-1){
+        if(ind > (int)s.size()-1){
         txt->line = line;
         txt->ind = s.size()-1;
 		return;
