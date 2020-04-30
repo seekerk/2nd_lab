@@ -6,6 +6,9 @@ CONFIG -= app_bundle
 CONFIG += thread
 CONFIG -= qt
 
+CONFIG += c++1z
+
+
 QMAKE_CXXFLAGS += -Wall #-Wextra -Werror
 QMAKE_CFLAGS += -Wall #-Wextra -Werror
 
@@ -40,6 +43,7 @@ HEADERS += \
 ../app/common.h \
 ../app/text/_text.h \
 ../app/text/text.h \
+    common_test.h \
     move_test.h \
     plb_test.h \
     save_test.h \
@@ -49,8 +53,8 @@ DEFINES += INPUTDIRSAVE=\\\"$$PWD/testsave\\\" \
     INPUTDIRPLB=\\\"$$PWD/testplb\\\" \
     INPUTDIRMOVE=\\\"$$PWD/testmove\\\" \
     INPUTDIRSPLIT=\\\"$$PWD/testsplit\\\" \
-    INPUTDIRCLASS=\\\"$$PWD/testshowclassified\\\"
-
+    INPUTDIRCLASS=\\\"$$PWD/testshowclassified\\\" \
+    INPUTDIRCOMMON=\\\"$$PWD/testCommon\\\"
 
 
 
