@@ -42,7 +42,8 @@ HEADERS += \
 ../app/text/text.h \
     move_test.h \
     plb_test.h \
-    save_test.h
+    save_test.h \
+    split_test.h
 
 DEFINES += INPUTDIRSAVE=\\\"$$PWD/testsave\\\" \
     INPUTDIRPLB=\\\"$$PWD/testplb\\\" \
