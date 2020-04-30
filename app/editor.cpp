@@ -154,7 +154,7 @@ int main()
 				cout << "Need more arguments\n";
 				continue;
 			}
-			line2 = stoi(line1);
+            line2 = std::stoi(line1);
             ind2 = std::stoi(ind1);
             move(txt, line2, ind2);
 			//cout << endl;
