@@ -154,9 +154,13 @@ int main()
 				cout << "Need more arguments\n";
 				continue;
             }
-            int line3 = stoi(line1);
+            char t1[100];
+            strcpy(t1, line1.c_str());
+
+            int line3 = atoi(t1);
             line2 = line3;
-            ind2 = stoi(ind1);
+            strcpy(t1, ind1.c_str());
+            ind2 = atoi(t1);
             move(txt, line2, ind2);
 			//cout << endl;
             continue;
