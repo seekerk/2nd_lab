@@ -28,7 +28,7 @@ TEST(plbTestPositive, console1){
     s1+="/inCommandLine";
 
     if ((f = fopen(s1.c_str(), "r")) == NULL) {
-        FAIL();
+         FAIL();
     }else{
 
         /* Считываем содержимое строка за строкой */

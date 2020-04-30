@@ -46,7 +46,6 @@ TEST(saveTestPositive, split){
         fclose(fout);
         fclose(fshould);
 
-
     remove_all(txt);
 }
 
