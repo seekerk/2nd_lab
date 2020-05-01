@@ -15,9 +15,6 @@ TEST(moveTestPositive, functional){
     ofstream ostr;
     string s = (const char*)INPUTDIRMOVE;
     s+="/textIn.txt";
-    //ostr.open(s.c_str());
-
-    cout << s;
 
     text1* txt = new text1;
 

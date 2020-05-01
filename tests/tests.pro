@@ -7,7 +7,7 @@ CONFIG += thread
 CONFIG -= qt
 
 
-QMAKE_CXXFLAGS += -Wall /std:c++17#-Wextra -Werror
+QMAKE_CXXFLAGS += -Wall #-Wextra -Werror
 QMAKE_CFLAGS += -Wall #-Wextra -Werror
 
 # gcov
