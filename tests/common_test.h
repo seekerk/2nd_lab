@@ -4,7 +4,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <conio.h>
 
 extern "C++" {
     #include "common.h"

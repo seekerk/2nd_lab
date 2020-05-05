@@ -35,7 +35,7 @@ SOURCES += \
 
 DISTFILES += \
 input.txt \
-D:\Programs\test_second_lab\build-qmake-gtest-Desktop_Qt_5_14_1_MinGW_64_bit-Debug\app\in
+../app/in
 
 HEADERS += \
 ../app/common.h \

@@ -1,5 +1,5 @@
 TEMPLATE = app
-CONFIG += console c++11
+CONFIG += console c++17
 CONFIG -= app_bundle
 CONFIG -= qt
 QT += core
@@ -23,7 +23,7 @@ text/show_all.cpp
 
 DISTFILES += \
 input.txt \
-D:\Programs\test_second_lab\build-qmake-gtest-Desktop_Qt_5_14_1_MinGW_64_bit-Debug\app\in
+in
 
 HEADERS += \
 common.h \
