@@ -4,11 +4,13 @@ compiler: gcc
 
 before_install:
   - pip install --user cpp-coveralls
-  - apt update && apt install qt5-default -y
+  - sudo apt-get install qt5-default -y
 
 addons:
   sonarcloud:
     organization: "seekerk"
+  apt:
+    update: true
 
 script:
   - qmake
